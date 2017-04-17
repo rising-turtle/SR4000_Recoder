@@ -1,0 +1,2124 @@
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for i686-pc-linux-gnu
+Reading makefiles...
+Reading makefile `Makefile'...
+Reading makefile `target/TCPUDPServer.d' (search path) (don't care) (no ~ expansion)...
+Updating makefiles....
+ Considering target file `target/TCPUDPServer.d'.
+  Looking for an implicit rule for `target/TCPUDPServer.d'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.o'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.c'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.cc'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.C'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.cpp'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.p'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.f'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.F'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.r'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.s'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.S'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.mod'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.sh'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d,v'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/RCS/TCPUDPServer.d,v'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/RCS/TCPUDPServer.d'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/s.TCPUDPServer.d'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.o'.
+  Looking for a rule with intermediate file `target/TCPUDPServer.d.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `TCPUDPServer.d.cpp'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.c'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.cc'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.C'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.cpp'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.p'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.f'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.F'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.r'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.s'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.S'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.mod'.
+   Trying pattern rule with stem `TCPUDPServer.d.o'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.o,v'.
+   Trying pattern rule with stem `TCPUDPServer.d.o'.
+   Trying implicit prerequisite `target/RCS/TCPUDPServer.d.o,v'.
+   Trying pattern rule with stem `TCPUDPServer.d.o'.
+   Trying implicit prerequisite `target/RCS/TCPUDPServer.d.o'.
+   Trying pattern rule with stem `TCPUDPServer.d.o'.
+   Trying implicit prerequisite `target/s.TCPUDPServer.d.o'.
+   Trying pattern rule with stem `TCPUDPServer.d.o'.
+   Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.o'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `TCPUDPServer.d.cpp'.
+   Looking for a rule with intermediate file `TCPUDPServer.d.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `TCPUDPServer.d.cpp,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `RCS/TCPUDPServer.d.cpp,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `RCS/TCPUDPServer.d.cpp'.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `s.TCPUDPServer.d.cpp'.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `SCCS/s.TCPUDPServer.d.cpp'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.c'.
+   Looking for a rule with intermediate file `target/TCPUDPServer.d.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.y'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.l'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.w'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.w'.
+    Trying pattern rule with stem `TCPUDPServer.d.c'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.c,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.c'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.c,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.c'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.c'.
+    Trying pattern rule with stem `TCPUDPServer.d.c'.
+    Trying implicit prerequisite `target/s.TCPUDPServer.d.c'.
+    Trying pattern rule with stem `TCPUDPServer.d.c'.
+    Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.c'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.y'.
+    Looking for a rule with intermediate file `target/TCPUDPServer.d.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `TCPUDPServer.d.y'.
+     Trying implicit prerequisite `target/TCPUDPServer.d.y,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.y'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.y,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.y'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.y'.
+     Trying pattern rule with stem `TCPUDPServer.d.y'.
+     Trying implicit prerequisite `target/s.TCPUDPServer.d.y'.
+     Trying pattern rule with stem `TCPUDPServer.d.y'.
+     Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.y'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.l'.
+    Looking for a rule with intermediate file `target/TCPUDPServer.d.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `TCPUDPServer.d.l'.
+     Trying implicit prerequisite `target/TCPUDPServer.d.l,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.l'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.l,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.l'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.l'.
+     Trying pattern rule with stem `TCPUDPServer.d.l'.
+     Trying implicit prerequisite `target/s.TCPUDPServer.d.l'.
+     Trying pattern rule with stem `TCPUDPServer.d.l'.
+     Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.l'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.w'.
+    Looking for a rule with intermediate file `target/TCPUDPServer.d.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `TCPUDPServer.d.w'.
+     Trying implicit prerequisite `target/TCPUDPServer.d.w,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.w'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.w,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.w'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.w'.
+     Trying pattern rule with stem `TCPUDPServer.d.w'.
+     Trying implicit prerequisite `target/s.TCPUDPServer.d.w'.
+     Trying pattern rule with stem `TCPUDPServer.d.w'.
+     Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.w'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.w'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.cc'.
+   Looking for a rule with intermediate file `target/TCPUDPServer.d.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d.cc'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.cc,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.cc'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.cc,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.cc'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.cc'.
+    Trying pattern rule with stem `TCPUDPServer.d.cc'.
+    Trying implicit prerequisite `target/s.TCPUDPServer.d.cc'.
+    Trying pattern rule with stem `TCPUDPServer.d.cc'.
+    Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.cc'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.C'.
+   Looking for a rule with intermediate file `target/TCPUDPServer.d.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d.C'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.C,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.C'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.C,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.C'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.C'.
+    Trying pattern rule with stem `TCPUDPServer.d.C'.
+    Trying implicit prerequisite `target/s.TCPUDPServer.d.C'.
+    Trying pattern rule with stem `TCPUDPServer.d.C'.
+    Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.C'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.cpp'.
+   Looking for a rule with intermediate file `target/TCPUDPServer.d.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.cpp,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.cpp,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.cpp'.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `target/s.TCPUDPServer.d.cpp'.
+    Trying pattern rule with stem `TCPUDPServer.d.cpp'.
+    Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.cpp'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.p'.
+   Looking for a rule with intermediate file `target/TCPUDPServer.d.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.web'.
+    Trying pattern rule with stem `TCPUDPServer.d.p'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.p,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.p'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.p,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.p'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.p'.
+    Trying pattern rule with stem `TCPUDPServer.d.p'.
+    Trying implicit prerequisite `target/s.TCPUDPServer.d.p'.
+    Trying pattern rule with stem `TCPUDPServer.d.p'.
+    Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.p'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.web'.
+    Looking for a rule with intermediate file `target/TCPUDPServer.d.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `TCPUDPServer.d.web'.
+     Trying implicit prerequisite `target/TCPUDPServer.d.web,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.web'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.web,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.web'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.web'.
+     Trying pattern rule with stem `TCPUDPServer.d.web'.
+     Trying implicit prerequisite `target/s.TCPUDPServer.d.web'.
+     Trying pattern rule with stem `TCPUDPServer.d.web'.
+     Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.web'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.f'.
+   Looking for a rule with intermediate file `target/TCPUDPServer.d.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.F'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.r'.
+    Trying pattern rule with stem `TCPUDPServer.d.f'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.f,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.f'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.f,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.f'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.f'.
+    Trying pattern rule with stem `TCPUDPServer.d.f'.
+    Trying implicit prerequisite `target/s.TCPUDPServer.d.f'.
+    Trying pattern rule with stem `TCPUDPServer.d.f'.
+    Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.f'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.F'.
+    Looking for a rule with intermediate file `target/TCPUDPServer.d.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `TCPUDPServer.d.F'.
+     Trying implicit prerequisite `target/TCPUDPServer.d.F,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.F'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.F,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.F'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.F'.
+     Trying pattern rule with stem `TCPUDPServer.d.F'.
+     Trying implicit prerequisite `target/s.TCPUDPServer.d.F'.
+     Trying pattern rule with stem `TCPUDPServer.d.F'.
+     Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.F'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.r'.
+    Looking for a rule with intermediate file `target/TCPUDPServer.d.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `TCPUDPServer.d'.
+     Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.l'.
+     Trying pattern rule with stem `TCPUDPServer.d.r'.
+     Trying implicit prerequisite `target/TCPUDPServer.d.r,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.r'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.r,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.r'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.r'.
+     Trying pattern rule with stem `TCPUDPServer.d.r'.
+     Trying implicit prerequisite `target/s.TCPUDPServer.d.r'.
+     Trying pattern rule with stem `TCPUDPServer.d.r'.
+     Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.r'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.F'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.r'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.s'.
+   Looking for a rule with intermediate file `target/TCPUDPServer.d.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.S'.
+    Trying pattern rule with stem `TCPUDPServer.d.s'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.s,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.s'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.s,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.s'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.s'.
+    Trying pattern rule with stem `TCPUDPServer.d.s'.
+    Trying implicit prerequisite `target/s.TCPUDPServer.d.s'.
+    Trying pattern rule with stem `TCPUDPServer.d.s'.
+    Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.s'.
+    Trying pattern rule with stem `TCPUDPServer.d'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.S'.
+    Looking for a rule with intermediate file `target/TCPUDPServer.d.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `TCPUDPServer.d.S'.
+     Trying implicit prerequisite `target/TCPUDPServer.d.S,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.S'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.S,v'.
+     Trying pattern rule with stem `TCPUDPServer.d.S'.
+     Trying implicit prerequisite `target/RCS/TCPUDPServer.d.S'.
+     Trying pattern rule with stem `TCPUDPServer.d.S'.
+     Trying implicit prerequisite `target/s.TCPUDPServer.d.S'.
+     Trying pattern rule with stem `TCPUDPServer.d.S'.
+     Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.S'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.S'.
+   Trying pattern rule with stem `TCPUDPServer.d'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.mod'.
+   Looking for a rule with intermediate file `target/TCPUDPServer.d.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `TCPUDPServer.d.mod'.
+    Trying implicit prerequisite `target/TCPUDPServer.d.mod,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.mod'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.mod,v'.
+    Trying pattern rule with stem `TCPUDPServer.d.mod'.
+    Trying implicit prerequisite `target/RCS/TCPUDPServer.d.mod'.
+    Trying pattern rule with stem `TCPUDPServer.d.mod'.
+    Trying implicit prerequisite `target/s.TCPUDPServer.d.mod'.
+    Trying pattern rule with stem `TCPUDPServer.d.mod'.
+    Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.mod'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.c'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.cc'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.C'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.cpp'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.p'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.f'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.F'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.r'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.s'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.S'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Rejecting impossible implicit prerequisite `target/TCPUDPServer.d.mod'.
+  Trying pattern rule with stem `TCPUDPServer.d'.
+  Trying implicit prerequisite `target/TCPUDPServer.d.sh'.
+  Looking for a rule with intermediate file `target/TCPUDPServer.d.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `TCPUDPServer.d.sh'.
+   Trying implicit prerequisite `target/TCPUDPServer.d.sh,v'.
+   Trying pattern rule with stem `TCPUDPServer.d.sh'.
+   Trying implicit prerequisite `target/RCS/TCPUDPServer.d.sh,v'.
+   Trying pattern rule with stem `TCPUDPServer.d.sh'.
+   Trying implicit prerequisite `target/RCS/TCPUDPServer.d.sh'.
+   Trying pattern rule with stem `TCPUDPServer.d.sh'.
+   Trying implicit prerequisite `target/s.TCPUDPServer.d.sh'.
+   Trying pattern rule with stem `TCPUDPServer.d.sh'.
+   Trying implicit prerequisite `target/SCCS/s.TCPUDPServer.d.sh'.
+  No implicit rule found for `target/TCPUDPServer.d'.
+  Finished prerequisites of target file `target/TCPUDPServer.d'.
+ No need to remake target `target/TCPUDPServer.d'.
+ Considering target file `Makefile'.
+  Looking for an implicit rule for `Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `SCCS/s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Looking for a rule with intermediate file `Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `s.Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `SCCS/s.Makefile.o'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Looking for a rule with intermediate file `Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `s.Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `SCCS/s.Makefile.c'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Looking for a rule with intermediate file `Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `s.Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `SCCS/s.Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Looking for a rule with intermediate file `Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `s.Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `SCCS/s.Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Looking for a rule with intermediate file `Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `s.Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `SCCS/s.Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Rejecting impossible implicit prerequisite `Makefile.w'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Looking for a rule with intermediate file `Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `s.Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Looking for a rule with intermediate file `Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `s.Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `SCCS/s.Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Looking for a rule with intermediate file `Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `s.Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Looking for a rule with intermediate file `Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `s.Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `SCCS/s.Makefile.p'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Looking for a rule with intermediate file `Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `s.Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `SCCS/s.Makefile.web'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Looking for a rule with intermediate file `Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `s.Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `SCCS/s.Makefile.f'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Looking for a rule with intermediate file `Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `s.Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `SCCS/s.Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Looking for a rule with intermediate file `Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile'.
+     Rejecting impossible implicit prerequisite `Makefile.l'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `s.Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `SCCS/s.Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Looking for a rule with intermediate file `Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `s.Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `SCCS/s.Makefile.s'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Looking for a rule with intermediate file `Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `s.Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `SCCS/s.Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Looking for a rule with intermediate file `Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `s.Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Looking for a rule with intermediate file `Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `s.Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `SCCS/s.Makefile.sh'.
+  No implicit rule found for `Makefile'.
+  Finished prerequisites of target file `Makefile'.
+ No need to remake target `Makefile'.
+Updating goal targets....
+Considering target file `all'.
+ File `all' does not exist.
+ Looking for an implicit rule for `all'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.o'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.c'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.cc'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.C'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.cpp'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.p'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.f'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.F'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.r'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.s'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.S'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.mod'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.sh'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all,v'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `RCS/all,v'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `RCS/all'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `s.all'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `SCCS/s.all'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.o'.
+ Looking for a rule with intermediate file `all.o'.
+  Avoiding implicit rule recursion.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.c'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.cc'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.C'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.cpp'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.p'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.f'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.F'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.r'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.s'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.S'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.mod'.
+  Trying pattern rule with stem `all.o'.
+  Trying implicit prerequisite `all.o,v'.
+  Trying pattern rule with stem `all.o'.
+  Trying implicit prerequisite `RCS/all.o,v'.
+  Trying pattern rule with stem `all.o'.
+  Trying implicit prerequisite `RCS/all.o'.
+  Trying pattern rule with stem `all.o'.
+  Trying implicit prerequisite `s.all.o'.
+  Trying pattern rule with stem `all.o'.
+  Trying implicit prerequisite `SCCS/s.all.o'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.c'.
+  Looking for a rule with intermediate file `all.c'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.y'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.l'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.w'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.w'.
+   Trying pattern rule with stem `all.c'.
+   Trying implicit prerequisite `all.c,v'.
+   Trying pattern rule with stem `all.c'.
+   Trying implicit prerequisite `RCS/all.c,v'.
+   Trying pattern rule with stem `all.c'.
+   Trying implicit prerequisite `RCS/all.c'.
+   Trying pattern rule with stem `all.c'.
+   Trying implicit prerequisite `s.all.c'.
+   Trying pattern rule with stem `all.c'.
+   Trying implicit prerequisite `SCCS/s.all.c'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.y'.
+   Looking for a rule with intermediate file `all.y'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `all.y'.
+    Trying implicit prerequisite `all.y,v'.
+    Trying pattern rule with stem `all.y'.
+    Trying implicit prerequisite `RCS/all.y,v'.
+    Trying pattern rule with stem `all.y'.
+    Trying implicit prerequisite `RCS/all.y'.
+    Trying pattern rule with stem `all.y'.
+    Trying implicit prerequisite `s.all.y'.
+    Trying pattern rule with stem `all.y'.
+    Trying implicit prerequisite `SCCS/s.all.y'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.l'.
+   Looking for a rule with intermediate file `all.l'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `all.l'.
+    Trying implicit prerequisite `all.l,v'.
+    Trying pattern rule with stem `all.l'.
+    Trying implicit prerequisite `RCS/all.l,v'.
+    Trying pattern rule with stem `all.l'.
+    Trying implicit prerequisite `RCS/all.l'.
+    Trying pattern rule with stem `all.l'.
+    Trying implicit prerequisite `s.all.l'.
+    Trying pattern rule with stem `all.l'.
+    Trying implicit prerequisite `SCCS/s.all.l'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.w'.
+   Looking for a rule with intermediate file `all.w'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `all.w'.
+    Trying implicit prerequisite `all.w,v'.
+    Trying pattern rule with stem `all.w'.
+    Trying implicit prerequisite `RCS/all.w,v'.
+    Trying pattern rule with stem `all.w'.
+    Trying implicit prerequisite `RCS/all.w'.
+    Trying pattern rule with stem `all.w'.
+    Trying implicit prerequisite `s.all.w'.
+    Trying pattern rule with stem `all.w'.
+    Trying implicit prerequisite `SCCS/s.all.w'.
+   Trying pattern rule with stem `all'.
+   Rejecting impossible implicit prerequisite `all.w'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.cc'.
+  Looking for a rule with intermediate file `all.cc'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `all.cc'.
+   Trying implicit prerequisite `all.cc,v'.
+   Trying pattern rule with stem `all.cc'.
+   Trying implicit prerequisite `RCS/all.cc,v'.
+   Trying pattern rule with stem `all.cc'.
+   Trying implicit prerequisite `RCS/all.cc'.
+   Trying pattern rule with stem `all.cc'.
+   Trying implicit prerequisite `s.all.cc'.
+   Trying pattern rule with stem `all.cc'.
+   Trying implicit prerequisite `SCCS/s.all.cc'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.C'.
+  Looking for a rule with intermediate file `all.C'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `all.C'.
+   Trying implicit prerequisite `all.C,v'.
+   Trying pattern rule with stem `all.C'.
+   Trying implicit prerequisite `RCS/all.C,v'.
+   Trying pattern rule with stem `all.C'.
+   Trying implicit prerequisite `RCS/all.C'.
+   Trying pattern rule with stem `all.C'.
+   Trying implicit prerequisite `s.all.C'.
+   Trying pattern rule with stem `all.C'.
+   Trying implicit prerequisite `SCCS/s.all.C'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.cpp'.
+  Looking for a rule with intermediate file `all.cpp'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `all.cpp'.
+   Trying implicit prerequisite `all.cpp,v'.
+   Trying pattern rule with stem `all.cpp'.
+   Trying implicit prerequisite `RCS/all.cpp,v'.
+   Trying pattern rule with stem `all.cpp'.
+   Trying implicit prerequisite `RCS/all.cpp'.
+   Trying pattern rule with stem `all.cpp'.
+   Trying implicit prerequisite `s.all.cpp'.
+   Trying pattern rule with stem `all.cpp'.
+   Trying implicit prerequisite `SCCS/s.all.cpp'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.p'.
+  Looking for a rule with intermediate file `all.p'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.web'.
+   Trying pattern rule with stem `all.p'.
+   Trying implicit prerequisite `all.p,v'.
+   Trying pattern rule with stem `all.p'.
+   Trying implicit prerequisite `RCS/all.p,v'.
+   Trying pattern rule with stem `all.p'.
+   Trying implicit prerequisite `RCS/all.p'.
+   Trying pattern rule with stem `all.p'.
+   Trying implicit prerequisite `s.all.p'.
+   Trying pattern rule with stem `all.p'.
+   Trying implicit prerequisite `SCCS/s.all.p'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.web'.
+   Looking for a rule with intermediate file `all.web'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `all.web'.
+    Trying implicit prerequisite `all.web,v'.
+    Trying pattern rule with stem `all.web'.
+    Trying implicit prerequisite `RCS/all.web,v'.
+    Trying pattern rule with stem `all.web'.
+    Trying implicit prerequisite `RCS/all.web'.
+    Trying pattern rule with stem `all.web'.
+    Trying implicit prerequisite `s.all.web'.
+    Trying pattern rule with stem `all.web'.
+    Trying implicit prerequisite `SCCS/s.all.web'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.f'.
+  Looking for a rule with intermediate file `all.f'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.F'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.r'.
+   Trying pattern rule with stem `all.f'.
+   Trying implicit prerequisite `all.f,v'.
+   Trying pattern rule with stem `all.f'.
+   Trying implicit prerequisite `RCS/all.f,v'.
+   Trying pattern rule with stem `all.f'.
+   Trying implicit prerequisite `RCS/all.f'.
+   Trying pattern rule with stem `all.f'.
+   Trying implicit prerequisite `s.all.f'.
+   Trying pattern rule with stem `all.f'.
+   Trying implicit prerequisite `SCCS/s.all.f'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.F'.
+   Looking for a rule with intermediate file `all.F'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `all.F'.
+    Trying implicit prerequisite `all.F,v'.
+    Trying pattern rule with stem `all.F'.
+    Trying implicit prerequisite `RCS/all.F,v'.
+    Trying pattern rule with stem `all.F'.
+    Trying implicit prerequisite `RCS/all.F'.
+    Trying pattern rule with stem `all.F'.
+    Trying implicit prerequisite `s.all.F'.
+    Trying pattern rule with stem `all.F'.
+    Trying implicit prerequisite `SCCS/s.all.F'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.r'.
+   Looking for a rule with intermediate file `all.r'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `all'.
+    Rejecting impossible implicit prerequisite `all.l'.
+    Trying pattern rule with stem `all.r'.
+    Trying implicit prerequisite `all.r,v'.
+    Trying pattern rule with stem `all.r'.
+    Trying implicit prerequisite `RCS/all.r,v'.
+    Trying pattern rule with stem `all.r'.
+    Trying implicit prerequisite `RCS/all.r'.
+    Trying pattern rule with stem `all.r'.
+    Trying implicit prerequisite `s.all.r'.
+    Trying pattern rule with stem `all.r'.
+    Trying implicit prerequisite `SCCS/s.all.r'.
+  Trying pattern rule with stem `all'.
+  Rejecting impossible implicit prerequisite `all.F'.
+  Trying pattern rule with stem `all'.
+  Rejecting impossible implicit prerequisite `all.r'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.s'.
+  Looking for a rule with intermediate file `all.s'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.S'.
+   Trying pattern rule with stem `all.s'.
+   Trying implicit prerequisite `all.s,v'.
+   Trying pattern rule with stem `all.s'.
+   Trying implicit prerequisite `RCS/all.s,v'.
+   Trying pattern rule with stem `all.s'.
+   Trying implicit prerequisite `RCS/all.s'.
+   Trying pattern rule with stem `all.s'.
+   Trying implicit prerequisite `s.all.s'.
+   Trying pattern rule with stem `all.s'.
+   Trying implicit prerequisite `SCCS/s.all.s'.
+   Trying pattern rule with stem `all'.
+   Trying implicit prerequisite `all.S'.
+   Looking for a rule with intermediate file `all.S'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `all.S'.
+    Trying implicit prerequisite `all.S,v'.
+    Trying pattern rule with stem `all.S'.
+    Trying implicit prerequisite `RCS/all.S,v'.
+    Trying pattern rule with stem `all.S'.
+    Trying implicit prerequisite `RCS/all.S'.
+    Trying pattern rule with stem `all.S'.
+    Trying implicit prerequisite `s.all.S'.
+    Trying pattern rule with stem `all.S'.
+    Trying implicit prerequisite `SCCS/s.all.S'.
+  Trying pattern rule with stem `all'.
+  Rejecting impossible implicit prerequisite `all.S'.
+  Trying pattern rule with stem `all'.
+  Trying implicit prerequisite `all.mod'.
+  Looking for a rule with intermediate file `all.mod'.
+   Avoiding implicit rule recursion.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `all.mod'.
+   Trying implicit prerequisite `all.mod,v'.
+   Trying pattern rule with stem `all.mod'.
+   Trying implicit prerequisite `RCS/all.mod,v'.
+   Trying pattern rule with stem `all.mod'.
+   Trying implicit prerequisite `RCS/all.mod'.
+   Trying pattern rule with stem `all.mod'.
+   Trying implicit prerequisite `s.all.mod'.
+   Trying pattern rule with stem `all.mod'.
+   Trying implicit prerequisite `SCCS/s.all.mod'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.c'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.cc'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.C'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.cpp'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.p'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.f'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.F'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.r'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.s'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.S'.
+ Trying pattern rule with stem `all'.
+ Rejecting impossible implicit prerequisite `all.mod'.
+ Trying pattern rule with stem `all'.
+ Trying implicit prerequisite `all.sh'.
+ Looking for a rule with intermediate file `all.sh'.
+  Avoiding implicit rule recursion.
+  Trying pattern rule with stem `all.sh'.
+  Trying implicit prerequisite `all.sh,v'.
+  Trying pattern rule with stem `all.sh'.
+  Trying implicit prerequisite `RCS/all.sh,v'.
+  Trying pattern rule with stem `all.sh'.
+  Trying implicit prerequisite `RCS/all.sh'.
+  Trying pattern rule with stem `all.sh'.
+  Trying implicit prerequisite `s.all.sh'.
+  Trying pattern rule with stem `all.sh'.
+  Trying implicit prerequisite `SCCS/s.all.sh'.
+ No implicit rule found for `all'.
+  Considering target file `target/TCPUDPServer'.
+   File `target/TCPUDPServer' does not exist.
+   Looking for an implicit rule for `target/TCPUDPServer'.
+   Trying pattern rule with stem `TCPUDPServer'.
+   Trying implicit prerequisite `target/TCPUDPServer.o'.
+   Found an implicit rule for `target/TCPUDPServer'.
+    Considering target file `target/TCPUDPServer.o'.
+     Looking for an implicit rule for `target/TCPUDPServer.o'.
+     Trying pattern rule with stem `TCPUDPServer'.
+     Trying implicit prerequisite `TCPUDPServer.cpp'.
+     Found an implicit rule for `target/TCPUDPServer.o'.
+      Considering target file `TCPUDPServer.cpp'.
+       Looking for an implicit rule for `TCPUDPServer.cpp'.
+       Trying pattern rule with stem `TCPUDPServer.cpp'.
+       Trying implicit prerequisite `TCPUDPServer.cpp,v'.
+       Trying pattern rule with stem `TCPUDPServer.cpp'.
+       Trying implicit prerequisite `RCS/TCPUDPServer.cpp,v'.
+       Trying pattern rule with stem `TCPUDPServer.cpp'.
+       Trying implicit prerequisite `RCS/TCPUDPServer.cpp'.
+       Trying pattern rule with stem `TCPUDPServer.cpp'.
+       Trying implicit prerequisite `s.TCPUDPServer.cpp'.
+       Trying pattern rule with stem `TCPUDPServer.cpp'.
+       Trying implicit prerequisite `SCCS/s.TCPUDPServer.cpp'.
+       No implicit rule found for `TCPUDPServer.cpp'.
+       Finished prerequisites of target file `TCPUDPServer.cpp'.
+      No need to remake target `TCPUDPServer.cpp'.
+      Pruning file `TCPUDPServer.cpp'.
+      Considering target file `/usr/include/termios.h'.
+       Looking for an implicit rule for `/usr/include/termios.h'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/termios.h,v'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/RCS/termios.h,v'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/RCS/termios.h'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/s.termios.h'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.termios.h'.
+       No implicit rule found for `/usr/include/termios.h'.
+       Finished prerequisites of target file `/usr/include/termios.h'.
+      No need to remake target `/usr/include/termios.h'.
+      Considering target file `/usr/include/features.h'.
+       Looking for an implicit rule for `/usr/include/features.h'.
+       Trying pattern rule with stem `features.h'.
+       Trying implicit prerequisite `/usr/include/features.h,v'.
+       Trying pattern rule with stem `features.h'.
+       Trying implicit prerequisite `/usr/include/RCS/features.h,v'.
+       Trying pattern rule with stem `features.h'.
+       Trying implicit prerequisite `/usr/include/RCS/features.h'.
+       Trying pattern rule with stem `features.h'.
+       Trying implicit prerequisite `/usr/include/s.features.h'.
+       Trying pattern rule with stem `features.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.features.h'.
+       No implicit rule found for `/usr/include/features.h'.
+       Finished prerequisites of target file `/usr/include/features.h'.
+      No need to remake target `/usr/include/features.h'.
+      Considering target file `/usr/include/stdc-predef.h'.
+       Looking for an implicit rule for `/usr/include/stdc-predef.h'.
+       Trying pattern rule with stem `stdc-predef.h'.
+       Trying implicit prerequisite `/usr/include/stdc-predef.h,v'.
+       Trying pattern rule with stem `stdc-predef.h'.
+       Trying implicit prerequisite `/usr/include/RCS/stdc-predef.h,v'.
+       Trying pattern rule with stem `stdc-predef.h'.
+       Trying implicit prerequisite `/usr/include/RCS/stdc-predef.h'.
+       Trying pattern rule with stem `stdc-predef.h'.
+       Trying implicit prerequisite `/usr/include/s.stdc-predef.h'.
+       Trying pattern rule with stem `stdc-predef.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.stdc-predef.h'.
+       No implicit rule found for `/usr/include/stdc-predef.h'.
+       Finished prerequisites of target file `/usr/include/stdc-predef.h'.
+      No need to remake target `/usr/include/stdc-predef.h'.
+      Considering target file `/usr/include/sys/cdefs.h'.
+       Looking for an implicit rule for `/usr/include/sys/cdefs.h'.
+       Trying pattern rule with stem `cdefs.h'.
+       Trying implicit prerequisite `/usr/include/sys/cdefs.h,v'.
+       Trying pattern rule with stem `cdefs.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/cdefs.h,v'.
+       Trying pattern rule with stem `cdefs.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/cdefs.h'.
+       Trying pattern rule with stem `cdefs.h'.
+       Trying implicit prerequisite `/usr/include/sys/s.cdefs.h'.
+       Trying pattern rule with stem `cdefs.h'.
+       Trying implicit prerequisite `/usr/include/sys/SCCS/s.cdefs.h'.
+       No implicit rule found for `/usr/include/sys/cdefs.h'.
+       Finished prerequisites of target file `/usr/include/sys/cdefs.h'.
+      No need to remake target `/usr/include/sys/cdefs.h'.
+      Considering target file `/usr/include/bits/wordsize.h'.
+       Looking for an implicit rule for `/usr/include/bits/wordsize.h'.
+       Trying pattern rule with stem `wordsize.h'.
+       Trying implicit prerequisite `/usr/include/bits/wordsize.h,v'.
+       Trying pattern rule with stem `wordsize.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/wordsize.h,v'.
+       Trying pattern rule with stem `wordsize.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/wordsize.h'.
+       Trying pattern rule with stem `wordsize.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.wordsize.h'.
+       Trying pattern rule with stem `wordsize.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.wordsize.h'.
+       No implicit rule found for `/usr/include/bits/wordsize.h'.
+       Finished prerequisites of target file `/usr/include/bits/wordsize.h'.
+      No need to remake target `/usr/include/bits/wordsize.h'.
+      Considering target file `/usr/include/gnu/stubs.h'.
+       Looking for an implicit rule for `/usr/include/gnu/stubs.h'.
+       Trying pattern rule with stem `stubs.h'.
+       Trying implicit prerequisite `/usr/include/gnu/stubs.h,v'.
+       Trying pattern rule with stem `stubs.h'.
+       Trying implicit prerequisite `/usr/include/gnu/RCS/stubs.h,v'.
+       Trying pattern rule with stem `stubs.h'.
+       Trying implicit prerequisite `/usr/include/gnu/RCS/stubs.h'.
+       Trying pattern rule with stem `stubs.h'.
+       Trying implicit prerequisite `/usr/include/gnu/s.stubs.h'.
+       Trying pattern rule with stem `stubs.h'.
+       Trying implicit prerequisite `/usr/include/gnu/SCCS/s.stubs.h'.
+       No implicit rule found for `/usr/include/gnu/stubs.h'.
+       Finished prerequisites of target file `/usr/include/gnu/stubs.h'.
+      No need to remake target `/usr/include/gnu/stubs.h'.
+      Considering target file `/usr/include/gnu/stubs-32.h'.
+       Looking for an implicit rule for `/usr/include/gnu/stubs-32.h'.
+       Trying pattern rule with stem `stubs-32.h'.
+       Trying implicit prerequisite `/usr/include/gnu/stubs-32.h,v'.
+       Trying pattern rule with stem `stubs-32.h'.
+       Trying implicit prerequisite `/usr/include/gnu/RCS/stubs-32.h,v'.
+       Trying pattern rule with stem `stubs-32.h'.
+       Trying implicit prerequisite `/usr/include/gnu/RCS/stubs-32.h'.
+       Trying pattern rule with stem `stubs-32.h'.
+       Trying implicit prerequisite `/usr/include/gnu/s.stubs-32.h'.
+       Trying pattern rule with stem `stubs-32.h'.
+       Trying implicit prerequisite `/usr/include/gnu/SCCS/s.stubs-32.h'.
+       No implicit rule found for `/usr/include/gnu/stubs-32.h'.
+       Finished prerequisites of target file `/usr/include/gnu/stubs-32.h'.
+      No need to remake target `/usr/include/gnu/stubs-32.h'.
+      Considering target file `/usr/include/bits/types.h'.
+       Looking for an implicit rule for `/usr/include/bits/types.h'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/bits/types.h,v'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/types.h,v'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/types.h'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.types.h'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.types.h'.
+       No implicit rule found for `/usr/include/bits/types.h'.
+       Finished prerequisites of target file `/usr/include/bits/types.h'.
+      No need to remake target `/usr/include/bits/types.h'.
+      Considering target file `/usr/include/bits/typesizes.h'.
+       Looking for an implicit rule for `/usr/include/bits/typesizes.h'.
+       Trying pattern rule with stem `typesizes.h'.
+       Trying implicit prerequisite `/usr/include/bits/typesizes.h,v'.
+       Trying pattern rule with stem `typesizes.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/typesizes.h,v'.
+       Trying pattern rule with stem `typesizes.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/typesizes.h'.
+       Trying pattern rule with stem `typesizes.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.typesizes.h'.
+       Trying pattern rule with stem `typesizes.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.typesizes.h'.
+       No implicit rule found for `/usr/include/bits/typesizes.h'.
+       Finished prerequisites of target file `/usr/include/bits/typesizes.h'.
+      No need to remake target `/usr/include/bits/typesizes.h'.
+      Considering target file `/usr/include/bits/termios.h'.
+       Looking for an implicit rule for `/usr/include/bits/termios.h'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/bits/termios.h,v'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/termios.h,v'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/termios.h'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.termios.h'.
+       Trying pattern rule with stem `termios.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.termios.h'.
+       No implicit rule found for `/usr/include/bits/termios.h'.
+       Finished prerequisites of target file `/usr/include/bits/termios.h'.
+      No need to remake target `/usr/include/bits/termios.h'.
+      Considering target file `/usr/include/sys/ttydefaults.h'.
+       Looking for an implicit rule for `/usr/include/sys/ttydefaults.h'.
+       Trying pattern rule with stem `ttydefaults.h'.
+       Trying implicit prerequisite `/usr/include/sys/ttydefaults.h,v'.
+       Trying pattern rule with stem `ttydefaults.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/ttydefaults.h,v'.
+       Trying pattern rule with stem `ttydefaults.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/ttydefaults.h'.
+       Trying pattern rule with stem `ttydefaults.h'.
+       Trying implicit prerequisite `/usr/include/sys/s.ttydefaults.h'.
+       Trying pattern rule with stem `ttydefaults.h'.
+       Trying implicit prerequisite `/usr/include/sys/SCCS/s.ttydefaults.h'.
+       No implicit rule found for `/usr/include/sys/ttydefaults.h'.
+       Finished prerequisites of target file `/usr/include/sys/ttydefaults.h'.
+      No need to remake target `/usr/include/sys/ttydefaults.h'.
+      Considering target file `/usr/include/stdio.h'.
+       Looking for an implicit rule for `/usr/include/stdio.h'.
+       Trying pattern rule with stem `stdio.h'.
+       Trying implicit prerequisite `/usr/include/stdio.h,v'.
+       Trying pattern rule with stem `stdio.h'.
+       Trying implicit prerequisite `/usr/include/RCS/stdio.h,v'.
+       Trying pattern rule with stem `stdio.h'.
+       Trying implicit prerequisite `/usr/include/RCS/stdio.h'.
+       Trying pattern rule with stem `stdio.h'.
+       Trying implicit prerequisite `/usr/include/s.stdio.h'.
+       Trying pattern rule with stem `stdio.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.stdio.h'.
+       No implicit rule found for `/usr/include/stdio.h'.
+       Finished prerequisites of target file `/usr/include/stdio.h'.
+      No need to remake target `/usr/include/stdio.h'.
+      Considering target file `/usr/include/libio.h'.
+       Looking for an implicit rule for `/usr/include/libio.h'.
+       Trying pattern rule with stem `libio.h'.
+       Trying implicit prerequisite `/usr/include/libio.h,v'.
+       Trying pattern rule with stem `libio.h'.
+       Trying implicit prerequisite `/usr/include/RCS/libio.h,v'.
+       Trying pattern rule with stem `libio.h'.
+       Trying implicit prerequisite `/usr/include/RCS/libio.h'.
+       Trying pattern rule with stem `libio.h'.
+       Trying implicit prerequisite `/usr/include/s.libio.h'.
+       Trying pattern rule with stem `libio.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.libio.h'.
+       No implicit rule found for `/usr/include/libio.h'.
+       Finished prerequisites of target file `/usr/include/libio.h'.
+      No need to remake target `/usr/include/libio.h'.
+      Considering target file `/usr/include/_G_config.h'.
+       Looking for an implicit rule for `/usr/include/_G_config.h'.
+       Trying pattern rule with stem `_G_config.h'.
+       Trying implicit prerequisite `/usr/include/_G_config.h,v'.
+       Trying pattern rule with stem `_G_config.h'.
+       Trying implicit prerequisite `/usr/include/RCS/_G_config.h,v'.
+       Trying pattern rule with stem `_G_config.h'.
+       Trying implicit prerequisite `/usr/include/RCS/_G_config.h'.
+       Trying pattern rule with stem `_G_config.h'.
+       Trying implicit prerequisite `/usr/include/s._G_config.h'.
+       Trying pattern rule with stem `_G_config.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s._G_config.h'.
+       No implicit rule found for `/usr/include/_G_config.h'.
+       Finished prerequisites of target file `/usr/include/_G_config.h'.
+      No need to remake target `/usr/include/_G_config.h'.
+      Considering target file `/usr/include/wchar.h'.
+       Looking for an implicit rule for `/usr/include/wchar.h'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/wchar.h,v'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/RCS/wchar.h,v'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/RCS/wchar.h'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/s.wchar.h'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.wchar.h'.
+       No implicit rule found for `/usr/include/wchar.h'.
+       Finished prerequisites of target file `/usr/include/wchar.h'.
+      No need to remake target `/usr/include/wchar.h'.
+      Considering target file `/usr/include/bits/stdio_lim.h'.
+       Looking for an implicit rule for `/usr/include/bits/stdio_lim.h'.
+       Trying pattern rule with stem `stdio_lim.h'.
+       Trying implicit prerequisite `/usr/include/bits/stdio_lim.h,v'.
+       Trying pattern rule with stem `stdio_lim.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/stdio_lim.h,v'.
+       Trying pattern rule with stem `stdio_lim.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/stdio_lim.h'.
+       Trying pattern rule with stem `stdio_lim.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.stdio_lim.h'.
+       Trying pattern rule with stem `stdio_lim.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.stdio_lim.h'.
+       No implicit rule found for `/usr/include/bits/stdio_lim.h'.
+       Finished prerequisites of target file `/usr/include/bits/stdio_lim.h'.
+      No need to remake target `/usr/include/bits/stdio_lim.h'.
+      Considering target file `/usr/include/bits/sys_errlist.h'.
+       Looking for an implicit rule for `/usr/include/bits/sys_errlist.h'.
+       Trying pattern rule with stem `sys_errlist.h'.
+       Trying implicit prerequisite `/usr/include/bits/sys_errlist.h,v'.
+       Trying pattern rule with stem `sys_errlist.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/sys_errlist.h,v'.
+       Trying pattern rule with stem `sys_errlist.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/sys_errlist.h'.
+       Trying pattern rule with stem `sys_errlist.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.sys_errlist.h'.
+       Trying pattern rule with stem `sys_errlist.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.sys_errlist.h'.
+       No implicit rule found for `/usr/include/bits/sys_errlist.h'.
+       Finished prerequisites of target file `/usr/include/bits/sys_errlist.h'.
+      No need to remake target `/usr/include/bits/sys_errlist.h'.
+      Considering target file `/usr/include/unistd.h'.
+       Looking for an implicit rule for `/usr/include/unistd.h'.
+       Trying pattern rule with stem `unistd.h'.
+       Trying implicit prerequisite `/usr/include/unistd.h,v'.
+       Trying pattern rule with stem `unistd.h'.
+       Trying implicit prerequisite `/usr/include/RCS/unistd.h,v'.
+       Trying pattern rule with stem `unistd.h'.
+       Trying implicit prerequisite `/usr/include/RCS/unistd.h'.
+       Trying pattern rule with stem `unistd.h'.
+       Trying implicit prerequisite `/usr/include/s.unistd.h'.
+       Trying pattern rule with stem `unistd.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.unistd.h'.
+       No implicit rule found for `/usr/include/unistd.h'.
+       Finished prerequisites of target file `/usr/include/unistd.h'.
+      No need to remake target `/usr/include/unistd.h'.
+      Considering target file `/usr/include/bits/posix_opt.h'.
+       Looking for an implicit rule for `/usr/include/bits/posix_opt.h'.
+       Trying pattern rule with stem `posix_opt.h'.
+       Trying implicit prerequisite `/usr/include/bits/posix_opt.h,v'.
+       Trying pattern rule with stem `posix_opt.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/posix_opt.h,v'.
+       Trying pattern rule with stem `posix_opt.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/posix_opt.h'.
+       Trying pattern rule with stem `posix_opt.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.posix_opt.h'.
+       Trying pattern rule with stem `posix_opt.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.posix_opt.h'.
+       No implicit rule found for `/usr/include/bits/posix_opt.h'.
+       Finished prerequisites of target file `/usr/include/bits/posix_opt.h'.
+      No need to remake target `/usr/include/bits/posix_opt.h'.
+      Considering target file `/usr/include/bits/environments.h'.
+       Looking for an implicit rule for `/usr/include/bits/environments.h'.
+       Trying pattern rule with stem `environments.h'.
+       Trying implicit prerequisite `/usr/include/bits/environments.h,v'.
+       Trying pattern rule with stem `environments.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/environments.h,v'.
+       Trying pattern rule with stem `environments.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/environments.h'.
+       Trying pattern rule with stem `environments.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.environments.h'.
+       Trying pattern rule with stem `environments.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.environments.h'.
+       No implicit rule found for `/usr/include/bits/environments.h'.
+       Finished prerequisites of target file `/usr/include/bits/environments.h'.
+      No need to remake target `/usr/include/bits/environments.h'.
+      Considering target file `/usr/include/bits/confname.h'.
+       Looking for an implicit rule for `/usr/include/bits/confname.h'.
+       Trying pattern rule with stem `confname.h'.
+       Trying implicit prerequisite `/usr/include/bits/confname.h,v'.
+       Trying pattern rule with stem `confname.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/confname.h,v'.
+       Trying pattern rule with stem `confname.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/confname.h'.
+       Trying pattern rule with stem `confname.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.confname.h'.
+       Trying pattern rule with stem `confname.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.confname.h'.
+       No implicit rule found for `/usr/include/bits/confname.h'.
+       Finished prerequisites of target file `/usr/include/bits/confname.h'.
+      No need to remake target `/usr/include/bits/confname.h'.
+      Considering target file `/usr/include/getopt.h'.
+       Looking for an implicit rule for `/usr/include/getopt.h'.
+       Trying pattern rule with stem `getopt.h'.
+       Trying implicit prerequisite `/usr/include/getopt.h,v'.
+       Trying pattern rule with stem `getopt.h'.
+       Trying implicit prerequisite `/usr/include/RCS/getopt.h,v'.
+       Trying pattern rule with stem `getopt.h'.
+       Trying implicit prerequisite `/usr/include/RCS/getopt.h'.
+       Trying pattern rule with stem `getopt.h'.
+       Trying implicit prerequisite `/usr/include/s.getopt.h'.
+       Trying pattern rule with stem `getopt.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.getopt.h'.
+       No implicit rule found for `/usr/include/getopt.h'.
+       Finished prerequisites of target file `/usr/include/getopt.h'.
+      No need to remake target `/usr/include/getopt.h'.
+      Considering target file `/usr/include/stdlib.h'.
+       Looking for an implicit rule for `/usr/include/stdlib.h'.
+       Trying pattern rule with stem `stdlib.h'.
+       Trying implicit prerequisite `/usr/include/stdlib.h,v'.
+       Trying pattern rule with stem `stdlib.h'.
+       Trying implicit prerequisite `/usr/include/RCS/stdlib.h,v'.
+       Trying pattern rule with stem `stdlib.h'.
+       Trying implicit prerequisite `/usr/include/RCS/stdlib.h'.
+       Trying pattern rule with stem `stdlib.h'.
+       Trying implicit prerequisite `/usr/include/s.stdlib.h'.
+       Trying pattern rule with stem `stdlib.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.stdlib.h'.
+       No implicit rule found for `/usr/include/stdlib.h'.
+       Finished prerequisites of target file `/usr/include/stdlib.h'.
+      No need to remake target `/usr/include/stdlib.h'.
+      Considering target file `/usr/include/bits/waitflags.h'.
+       Looking for an implicit rule for `/usr/include/bits/waitflags.h'.
+       Trying pattern rule with stem `waitflags.h'.
+       Trying implicit prerequisite `/usr/include/bits/waitflags.h,v'.
+       Trying pattern rule with stem `waitflags.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/waitflags.h,v'.
+       Trying pattern rule with stem `waitflags.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/waitflags.h'.
+       Trying pattern rule with stem `waitflags.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.waitflags.h'.
+       Trying pattern rule with stem `waitflags.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.waitflags.h'.
+       No implicit rule found for `/usr/include/bits/waitflags.h'.
+       Finished prerequisites of target file `/usr/include/bits/waitflags.h'.
+      No need to remake target `/usr/include/bits/waitflags.h'.
+      Considering target file `/usr/include/bits/waitstatus.h'.
+       Looking for an implicit rule for `/usr/include/bits/waitstatus.h'.
+       Trying pattern rule with stem `waitstatus.h'.
+       Trying implicit prerequisite `/usr/include/bits/waitstatus.h,v'.
+       Trying pattern rule with stem `waitstatus.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/waitstatus.h,v'.
+       Trying pattern rule with stem `waitstatus.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/waitstatus.h'.
+       Trying pattern rule with stem `waitstatus.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.waitstatus.h'.
+       Trying pattern rule with stem `waitstatus.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.waitstatus.h'.
+       No implicit rule found for `/usr/include/bits/waitstatus.h'.
+       Finished prerequisites of target file `/usr/include/bits/waitstatus.h'.
+      No need to remake target `/usr/include/bits/waitstatus.h'.
+      Considering target file `/usr/include/endian.h'.
+       Looking for an implicit rule for `/usr/include/endian.h'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/endian.h,v'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/RCS/endian.h,v'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/RCS/endian.h'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/s.endian.h'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.endian.h'.
+       No implicit rule found for `/usr/include/endian.h'.
+       Finished prerequisites of target file `/usr/include/endian.h'.
+      No need to remake target `/usr/include/endian.h'.
+      Considering target file `/usr/include/bits/endian.h'.
+       Looking for an implicit rule for `/usr/include/bits/endian.h'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/bits/endian.h,v'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/endian.h,v'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/endian.h'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.endian.h'.
+       Trying pattern rule with stem `endian.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.endian.h'.
+       No implicit rule found for `/usr/include/bits/endian.h'.
+       Finished prerequisites of target file `/usr/include/bits/endian.h'.
+      No need to remake target `/usr/include/bits/endian.h'.
+      Considering target file `/usr/include/bits/byteswap.h'.
+       Looking for an implicit rule for `/usr/include/bits/byteswap.h'.
+       Trying pattern rule with stem `byteswap.h'.
+       Trying implicit prerequisite `/usr/include/bits/byteswap.h,v'.
+       Trying pattern rule with stem `byteswap.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/byteswap.h,v'.
+       Trying pattern rule with stem `byteswap.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/byteswap.h'.
+       Trying pattern rule with stem `byteswap.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.byteswap.h'.
+       Trying pattern rule with stem `byteswap.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.byteswap.h'.
+       No implicit rule found for `/usr/include/bits/byteswap.h'.
+       Finished prerequisites of target file `/usr/include/bits/byteswap.h'.
+      No need to remake target `/usr/include/bits/byteswap.h'.
+      Considering target file `/usr/include/bits/byteswap-16.h'.
+       Looking for an implicit rule for `/usr/include/bits/byteswap-16.h'.
+       Trying pattern rule with stem `byteswap-16.h'.
+       Trying implicit prerequisite `/usr/include/bits/byteswap-16.h,v'.
+       Trying pattern rule with stem `byteswap-16.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/byteswap-16.h,v'.
+       Trying pattern rule with stem `byteswap-16.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/byteswap-16.h'.
+       Trying pattern rule with stem `byteswap-16.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.byteswap-16.h'.
+       Trying pattern rule with stem `byteswap-16.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.byteswap-16.h'.
+       No implicit rule found for `/usr/include/bits/byteswap-16.h'.
+       Finished prerequisites of target file `/usr/include/bits/byteswap-16.h'.
+      No need to remake target `/usr/include/bits/byteswap-16.h'.
+      Considering target file `/usr/include/xlocale.h'.
+       Looking for an implicit rule for `/usr/include/xlocale.h'.
+       Trying pattern rule with stem `xlocale.h'.
+       Trying implicit prerequisite `/usr/include/xlocale.h,v'.
+       Trying pattern rule with stem `xlocale.h'.
+       Trying implicit prerequisite `/usr/include/RCS/xlocale.h,v'.
+       Trying pattern rule with stem `xlocale.h'.
+       Trying implicit prerequisite `/usr/include/RCS/xlocale.h'.
+       Trying pattern rule with stem `xlocale.h'.
+       Trying implicit prerequisite `/usr/include/s.xlocale.h'.
+       Trying pattern rule with stem `xlocale.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.xlocale.h'.
+       No implicit rule found for `/usr/include/xlocale.h'.
+       Finished prerequisites of target file `/usr/include/xlocale.h'.
+      No need to remake target `/usr/include/xlocale.h'.
+      Considering target file `/usr/include/sys/types.h'.
+       Looking for an implicit rule for `/usr/include/sys/types.h'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/sys/types.h,v'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/types.h,v'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/types.h'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/sys/s.types.h'.
+       Trying pattern rule with stem `types.h'.
+       Trying implicit prerequisite `/usr/include/sys/SCCS/s.types.h'.
+       No implicit rule found for `/usr/include/sys/types.h'.
+       Finished prerequisites of target file `/usr/include/sys/types.h'.
+      No need to remake target `/usr/include/sys/types.h'.
+      Considering target file `/usr/include/time.h'.
+       Looking for an implicit rule for `/usr/include/time.h'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/time.h,v'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/RCS/time.h,v'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/RCS/time.h'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/s.time.h'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.time.h'.
+       No implicit rule found for `/usr/include/time.h'.
+       Finished prerequisites of target file `/usr/include/time.h'.
+      No need to remake target `/usr/include/time.h'.
+      Considering target file `/usr/include/sys/select.h'.
+       Looking for an implicit rule for `/usr/include/sys/select.h'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/sys/select.h,v'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/select.h,v'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/select.h'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/sys/s.select.h'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/sys/SCCS/s.select.h'.
+       No implicit rule found for `/usr/include/sys/select.h'.
+       Finished prerequisites of target file `/usr/include/sys/select.h'.
+      No need to remake target `/usr/include/sys/select.h'.
+      Considering target file `/usr/include/bits/select.h'.
+       Looking for an implicit rule for `/usr/include/bits/select.h'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/bits/select.h,v'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/select.h,v'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/select.h'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.select.h'.
+       Trying pattern rule with stem `select.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.select.h'.
+       No implicit rule found for `/usr/include/bits/select.h'.
+       Finished prerequisites of target file `/usr/include/bits/select.h'.
+      No need to remake target `/usr/include/bits/select.h'.
+      Considering target file `/usr/include/bits/sigset.h'.
+       Looking for an implicit rule for `/usr/include/bits/sigset.h'.
+       Trying pattern rule with stem `sigset.h'.
+       Trying implicit prerequisite `/usr/include/bits/sigset.h,v'.
+       Trying pattern rule with stem `sigset.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/sigset.h,v'.
+       Trying pattern rule with stem `sigset.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/sigset.h'.
+       Trying pattern rule with stem `sigset.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.sigset.h'.
+       Trying pattern rule with stem `sigset.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.sigset.h'.
+       No implicit rule found for `/usr/include/bits/sigset.h'.
+       Finished prerequisites of target file `/usr/include/bits/sigset.h'.
+      No need to remake target `/usr/include/bits/sigset.h'.
+      Considering target file `/usr/include/bits/time.h'.
+       Looking for an implicit rule for `/usr/include/bits/time.h'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/bits/time.h,v'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/time.h,v'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/time.h'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.time.h'.
+       Trying pattern rule with stem `time.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.time.h'.
+       No implicit rule found for `/usr/include/bits/time.h'.
+       Finished prerequisites of target file `/usr/include/bits/time.h'.
+      No need to remake target `/usr/include/bits/time.h'.
+      Considering target file `/usr/include/sys/sysmacros.h'.
+       Looking for an implicit rule for `/usr/include/sys/sysmacros.h'.
+       Trying pattern rule with stem `sysmacros.h'.
+       Trying implicit prerequisite `/usr/include/sys/sysmacros.h,v'.
+       Trying pattern rule with stem `sysmacros.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/sysmacros.h,v'.
+       Trying pattern rule with stem `sysmacros.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/sysmacros.h'.
+       Trying pattern rule with stem `sysmacros.h'.
+       Trying implicit prerequisite `/usr/include/sys/s.sysmacros.h'.
+       Trying pattern rule with stem `sysmacros.h'.
+       Trying implicit prerequisite `/usr/include/sys/SCCS/s.sysmacros.h'.
+       No implicit rule found for `/usr/include/sys/sysmacros.h'.
+       Finished prerequisites of target file `/usr/include/sys/sysmacros.h'.
+      No need to remake target `/usr/include/sys/sysmacros.h'.
+      Considering target file `/usr/include/bits/pthreadtypes.h'.
+       Looking for an implicit rule for `/usr/include/bits/pthreadtypes.h'.
+       Trying pattern rule with stem `pthreadtypes.h'.
+       Trying implicit prerequisite `/usr/include/bits/pthreadtypes.h,v'.
+       Trying pattern rule with stem `pthreadtypes.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/pthreadtypes.h,v'.
+       Trying pattern rule with stem `pthreadtypes.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/pthreadtypes.h'.
+       Trying pattern rule with stem `pthreadtypes.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.pthreadtypes.h'.
+       Trying pattern rule with stem `pthreadtypes.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.pthreadtypes.h'.
+       No implicit rule found for `/usr/include/bits/pthreadtypes.h'.
+       Finished prerequisites of target file `/usr/include/bits/pthreadtypes.h'.
+      No need to remake target `/usr/include/bits/pthreadtypes.h'.
+      Considering target file `/usr/include/alloca.h'.
+       Looking for an implicit rule for `/usr/include/alloca.h'.
+       Trying pattern rule with stem `alloca.h'.
+       Trying implicit prerequisite `/usr/include/alloca.h,v'.
+       Trying pattern rule with stem `alloca.h'.
+       Trying implicit prerequisite `/usr/include/RCS/alloca.h,v'.
+       Trying pattern rule with stem `alloca.h'.
+       Trying implicit prerequisite `/usr/include/RCS/alloca.h'.
+       Trying pattern rule with stem `alloca.h'.
+       Trying implicit prerequisite `/usr/include/s.alloca.h'.
+       Trying pattern rule with stem `alloca.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.alloca.h'.
+       No implicit rule found for `/usr/include/alloca.h'.
+       Finished prerequisites of target file `/usr/include/alloca.h'.
+      No need to remake target `/usr/include/alloca.h'.
+      Considering target file `/usr/include/bits/stdlib-float.h'.
+       Looking for an implicit rule for `/usr/include/bits/stdlib-float.h'.
+       Trying pattern rule with stem `stdlib-float.h'.
+       Trying implicit prerequisite `/usr/include/bits/stdlib-float.h,v'.
+       Trying pattern rule with stem `stdlib-float.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/stdlib-float.h,v'.
+       Trying pattern rule with stem `stdlib-float.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/stdlib-float.h'.
+       Trying pattern rule with stem `stdlib-float.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.stdlib-float.h'.
+       Trying pattern rule with stem `stdlib-float.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.stdlib-float.h'.
+       No implicit rule found for `/usr/include/bits/stdlib-float.h'.
+       Finished prerequisites of target file `/usr/include/bits/stdlib-float.h'.
+      No need to remake target `/usr/include/bits/stdlib-float.h'.
+      Considering target file `/usr/include/arpa/inet.h'.
+       Looking for an implicit rule for `/usr/include/arpa/inet.h'.
+       Trying pattern rule with stem `inet.h'.
+       Trying implicit prerequisite `/usr/include/arpa/inet.h,v'.
+       Trying pattern rule with stem `inet.h'.
+       Trying implicit prerequisite `/usr/include/arpa/RCS/inet.h,v'.
+       Trying pattern rule with stem `inet.h'.
+       Trying implicit prerequisite `/usr/include/arpa/RCS/inet.h'.
+       Trying pattern rule with stem `inet.h'.
+       Trying implicit prerequisite `/usr/include/arpa/s.inet.h'.
+       Trying pattern rule with stem `inet.h'.
+       Trying implicit prerequisite `/usr/include/arpa/SCCS/s.inet.h'.
+       No implicit rule found for `/usr/include/arpa/inet.h'.
+       Finished prerequisites of target file `/usr/include/arpa/inet.h'.
+      No need to remake target `/usr/include/arpa/inet.h'.
+      Considering target file `/usr/include/netinet/in.h'.
+       Looking for an implicit rule for `/usr/include/netinet/in.h'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/netinet/in.h,v'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/netinet/RCS/in.h,v'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/netinet/RCS/in.h'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/netinet/s.in.h'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/netinet/SCCS/s.in.h'.
+       No implicit rule found for `/usr/include/netinet/in.h'.
+       Finished prerequisites of target file `/usr/include/netinet/in.h'.
+      No need to remake target `/usr/include/netinet/in.h'.
+      Considering target file `/usr/include/stdint.h'.
+       Looking for an implicit rule for `/usr/include/stdint.h'.
+       Trying pattern rule with stem `stdint.h'.
+       Trying implicit prerequisite `/usr/include/stdint.h,v'.
+       Trying pattern rule with stem `stdint.h'.
+       Trying implicit prerequisite `/usr/include/RCS/stdint.h,v'.
+       Trying pattern rule with stem `stdint.h'.
+       Trying implicit prerequisite `/usr/include/RCS/stdint.h'.
+       Trying pattern rule with stem `stdint.h'.
+       Trying implicit prerequisite `/usr/include/s.stdint.h'.
+       Trying pattern rule with stem `stdint.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.stdint.h'.
+       No implicit rule found for `/usr/include/stdint.h'.
+       Finished prerequisites of target file `/usr/include/stdint.h'.
+      No need to remake target `/usr/include/stdint.h'.
+      Considering target file `/usr/include/bits/wchar.h'.
+       Looking for an implicit rule for `/usr/include/bits/wchar.h'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/bits/wchar.h,v'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/wchar.h,v'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/wchar.h'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.wchar.h'.
+       Trying pattern rule with stem `wchar.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.wchar.h'.
+       No implicit rule found for `/usr/include/bits/wchar.h'.
+       Finished prerequisites of target file `/usr/include/bits/wchar.h'.
+      No need to remake target `/usr/include/bits/wchar.h'.
+      Considering target file `/usr/include/sys/socket.h'.
+       Looking for an implicit rule for `/usr/include/sys/socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/sys/socket.h,v'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/socket.h,v'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/sys/s.socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/sys/SCCS/s.socket.h'.
+       No implicit rule found for `/usr/include/sys/socket.h'.
+       Finished prerequisites of target file `/usr/include/sys/socket.h'.
+      No need to remake target `/usr/include/sys/socket.h'.
+      Considering target file `/usr/include/sys/uio.h'.
+       Looking for an implicit rule for `/usr/include/sys/uio.h'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/sys/uio.h,v'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/uio.h,v'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/sys/RCS/uio.h'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/sys/s.uio.h'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/sys/SCCS/s.uio.h'.
+       No implicit rule found for `/usr/include/sys/uio.h'.
+       Finished prerequisites of target file `/usr/include/sys/uio.h'.
+      No need to remake target `/usr/include/sys/uio.h'.
+      Considering target file `/usr/include/bits/uio.h'.
+       Looking for an implicit rule for `/usr/include/bits/uio.h'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/bits/uio.h,v'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/uio.h,v'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/uio.h'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.uio.h'.
+       Trying pattern rule with stem `uio.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.uio.h'.
+       No implicit rule found for `/usr/include/bits/uio.h'.
+       Finished prerequisites of target file `/usr/include/bits/uio.h'.
+      No need to remake target `/usr/include/bits/uio.h'.
+      Considering target file `/usr/include/bits/socket.h'.
+       Looking for an implicit rule for `/usr/include/bits/socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/bits/socket.h,v'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/socket.h,v'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.socket.h'.
+       No implicit rule found for `/usr/include/bits/socket.h'.
+       Finished prerequisites of target file `/usr/include/bits/socket.h'.
+      No need to remake target `/usr/include/bits/socket.h'.
+      Considering target file `/usr/include/bits/socket_type.h'.
+       Looking for an implicit rule for `/usr/include/bits/socket_type.h'.
+       Trying pattern rule with stem `socket_type.h'.
+       Trying implicit prerequisite `/usr/include/bits/socket_type.h,v'.
+       Trying pattern rule with stem `socket_type.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/socket_type.h,v'.
+       Trying pattern rule with stem `socket_type.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/socket_type.h'.
+       Trying pattern rule with stem `socket_type.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.socket_type.h'.
+       Trying pattern rule with stem `socket_type.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.socket_type.h'.
+       No implicit rule found for `/usr/include/bits/socket_type.h'.
+       Finished prerequisites of target file `/usr/include/bits/socket_type.h'.
+      No need to remake target `/usr/include/bits/socket_type.h'.
+      Considering target file `/usr/include/bits/sockaddr.h'.
+       Looking for an implicit rule for `/usr/include/bits/sockaddr.h'.
+       Trying pattern rule with stem `sockaddr.h'.
+       Trying implicit prerequisite `/usr/include/bits/sockaddr.h,v'.
+       Trying pattern rule with stem `sockaddr.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/sockaddr.h,v'.
+       Trying pattern rule with stem `sockaddr.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/sockaddr.h'.
+       Trying pattern rule with stem `sockaddr.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.sockaddr.h'.
+       Trying pattern rule with stem `sockaddr.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.sockaddr.h'.
+       No implicit rule found for `/usr/include/bits/sockaddr.h'.
+       Finished prerequisites of target file `/usr/include/bits/sockaddr.h'.
+      No need to remake target `/usr/include/bits/sockaddr.h'.
+      Considering target file `/usr/include/asm/socket.h'.
+       Looking for an implicit rule for `/usr/include/asm/socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm/socket.h,v'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm/RCS/socket.h,v'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm/RCS/socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm/s.socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm/SCCS/s.socket.h'.
+       No implicit rule found for `/usr/include/asm/socket.h'.
+       Finished prerequisites of target file `/usr/include/asm/socket.h'.
+      No need to remake target `/usr/include/asm/socket.h'.
+      Considering target file `/usr/include/asm-generic/socket.h'.
+       Looking for an implicit rule for `/usr/include/asm-generic/socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/socket.h,v'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/RCS/socket.h,v'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/RCS/socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/s.socket.h'.
+       Trying pattern rule with stem `socket.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/SCCS/s.socket.h'.
+       No implicit rule found for `/usr/include/asm-generic/socket.h'.
+       Finished prerequisites of target file `/usr/include/asm-generic/socket.h'.
+      No need to remake target `/usr/include/asm-generic/socket.h'.
+      Considering target file `/usr/include/asm/sockios.h'.
+       Looking for an implicit rule for `/usr/include/asm/sockios.h'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm/sockios.h,v'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm/RCS/sockios.h,v'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm/RCS/sockios.h'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm/s.sockios.h'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm/SCCS/s.sockios.h'.
+       No implicit rule found for `/usr/include/asm/sockios.h'.
+       Finished prerequisites of target file `/usr/include/asm/sockios.h'.
+      No need to remake target `/usr/include/asm/sockios.h'.
+      Considering target file `/usr/include/asm-generic/sockios.h'.
+       Looking for an implicit rule for `/usr/include/asm-generic/sockios.h'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/sockios.h,v'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/RCS/sockios.h,v'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/RCS/sockios.h'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/s.sockios.h'.
+       Trying pattern rule with stem `sockios.h'.
+       Trying implicit prerequisite `/usr/include/asm-generic/SCCS/s.sockios.h'.
+       No implicit rule found for `/usr/include/asm-generic/sockios.h'.
+       Finished prerequisites of target file `/usr/include/asm-generic/sockios.h'.
+      No need to remake target `/usr/include/asm-generic/sockios.h'.
+      Considering target file `/usr/include/bits/in.h'.
+       Looking for an implicit rule for `/usr/include/bits/in.h'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/bits/in.h,v'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/in.h,v'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/bits/RCS/in.h'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/bits/s.in.h'.
+       Trying pattern rule with stem `in.h'.
+       Trying implicit prerequisite `/usr/include/bits/SCCS/s.in.h'.
+       No implicit rule found for `/usr/include/bits/in.h'.
+       Finished prerequisites of target file `/usr/include/bits/in.h'.
+      No need to remake target `/usr/include/bits/in.h'.
+      Considering target file `/usr/include/string.h'.
+       Looking for an implicit rule for `/usr/include/string.h'.
+       Trying pattern rule with stem `string.h'.
+       Trying implicit prerequisite `/usr/include/string.h,v'.
+       Trying pattern rule with stem `string.h'.
+       Trying implicit prerequisite `/usr/include/RCS/string.h,v'.
+       Trying pattern rule with stem `string.h'.
+       Trying implicit prerequisite `/usr/include/RCS/string.h'.
+       Trying pattern rule with stem `string.h'.
+       Trying implicit prerequisite `/usr/include/s.string.h'.
+       Trying pattern rule with stem `string.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.string.h'.
+       No implicit rule found for `/usr/include/string.h'.
+       Finished prerequisites of target file `/usr/include/string.h'.
+      No need to remake target `/usr/include/string.h'.
+      Considering target file `protocolDefines.h'.
+       Looking for an implicit rule for `protocolDefines.h'.
+       Trying pattern rule with stem `protocolDefines.h'.
+       Trying implicit prerequisite `protocolDefines.h,v'.
+       Trying pattern rule with stem `protocolDefines.h'.
+       Trying implicit prerequisite `RCS/protocolDefines.h,v'.
+       Trying pattern rule with stem `protocolDefines.h'.
+       Trying implicit prerequisite `RCS/protocolDefines.h'.
+       Trying pattern rule with stem `protocolDefines.h'.
+       Trying implicit prerequisite `s.protocolDefines.h'.
+       Trying pattern rule with stem `protocolDefines.h'.
+       Trying implicit prerequisite `SCCS/s.protocolDefines.h'.
+       No implicit rule found for `protocolDefines.h'.
+       Finished prerequisites of target file `protocolDefines.h'.
+      No need to remake target `protocolDefines.h'.
+      Considering target file `/usr/include/libMesaSR.h'.
+       Looking for an implicit rule for `/usr/include/libMesaSR.h'.
+       Trying pattern rule with stem `libMesaSR.h'.
+       Trying implicit prerequisite `/usr/include/libMesaSR.h,v'.
+       Trying pattern rule with stem `libMesaSR.h'.
+       Trying implicit prerequisite `/usr/include/RCS/libMesaSR.h,v'.
+       Trying pattern rule with stem `libMesaSR.h'.
+       Trying implicit prerequisite `/usr/include/RCS/libMesaSR.h'.
+       Trying pattern rule with stem `libMesaSR.h'.
+       Trying implicit prerequisite `/usr/include/s.libMesaSR.h'.
+       Trying pattern rule with stem `libMesaSR.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.libMesaSR.h'.
+       No implicit rule found for `/usr/include/libMesaSR.h'.
+       Finished prerequisites of target file `/usr/include/libMesaSR.h'.
+      No need to remake target `/usr/include/libMesaSR.h'.
+      Considering target file `/usr/include/definesSR.h'.
+       Looking for an implicit rule for `/usr/include/definesSR.h'.
+       Trying pattern rule with stem `definesSR.h'.
+       Trying implicit prerequisite `/usr/include/definesSR.h,v'.
+       Trying pattern rule with stem `definesSR.h'.
+       Trying implicit prerequisite `/usr/include/RCS/definesSR.h,v'.
+       Trying pattern rule with stem `definesSR.h'.
+       Trying implicit prerequisite `/usr/include/RCS/definesSR.h'.
+       Trying pattern rule with stem `definesSR.h'.
+       Trying implicit prerequisite `/usr/include/s.definesSR.h'.
+       Trying pattern rule with stem `definesSR.h'.
+       Trying implicit prerequisite `/usr/include/SCCS/s.definesSR.h'.
+       No implicit rule found for `/usr/include/definesSR.h'.
+       Finished prerequisites of target file `/usr/include/definesSR.h'.
+      No need to remake target `/usr/include/definesSR.h'.
+     Finished prerequisites of target file `target/TCPUDPServer.o'.
+     Prerequisite `TCPUDPServer.cpp' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `TCPUDPServer.cpp' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/termios.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/features.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/stdc-predef.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/sys/cdefs.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/wordsize.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/gnu/stubs.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/gnu/stubs-32.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/types.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/typesizes.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/termios.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/sys/ttydefaults.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/stdio.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/libio.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/_G_config.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/wchar.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/stdio_lim.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/sys_errlist.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/unistd.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/posix_opt.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/environments.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/confname.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/getopt.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/stdlib.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/waitflags.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/waitstatus.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/endian.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/endian.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/byteswap.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/byteswap-16.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/xlocale.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/sys/types.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/time.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/sys/select.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/select.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/sigset.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/time.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/sys/sysmacros.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/pthreadtypes.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/alloca.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/stdlib-float.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/arpa/inet.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/netinet/in.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/stdint.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/wchar.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/sys/socket.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/sys/uio.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/uio.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/socket.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/socket_type.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/sockaddr.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/asm/socket.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/asm-generic/socket.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/asm/sockios.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/asm-generic/sockios.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/bits/in.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/string.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `protocolDefines.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/libMesaSR.h' is older than target `target/TCPUDPServer.o'.
+     Prerequisite `/usr/include/definesSR.h' is older than target `target/TCPUDPServer.o'.
+    No need to remake target `target/TCPUDPServer.o'.
+    Pruning file `target/TCPUDPServer.o'.
+   Finished prerequisites of target file `target/TCPUDPServer'.
+  Must remake target `target/TCPUDPServer'.
+bfin-uclinux-g++ -Wl,-elf2flt  target/TCPUDPServer.o  -lmesasr_bfin -o target/TCPUDPServer
+Putting child 0x09362750 (target/TCPUDPServer) PID 1724 on the chain.
+Live child 0x09362750 (target/TCPUDPServer) PID 1724 
+Reaping losing child 0x09362750 PID 1724 
+Removing child 0x09362750 PID 1724 from chain.

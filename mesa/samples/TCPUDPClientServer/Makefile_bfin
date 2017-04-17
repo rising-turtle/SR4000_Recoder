@@ -1,0 +1,114 @@
+# Following calls are provided:
+#
+# make                             -> builds all executables for the target
+# make deploy -e IP_CAM=10.0.1.116 -> builds and copies persistantly to the target
+# make -e HOST=1                   -> builds all executables for host simulation
+
+#---------------- Variables --------------------
+
+ifdef HOST
+  DST=host
+  CPPFLAGS = -fPIC -MMD -MF $(@:%.o=%.d)
+  LDFLAGS = -fPIC
+  LDLIBS  = -lmesasr
+else
+  DST=target
+  CC  = bfin-uclinux-gcc
+  CXX = bfin-uclinux-g++
+
+  #-Wl -> forward to linker
+  LIBS_PATH = -L/opt/uClinux/bfin-uclinux/bfin-uclinux/runtime/usr/lib
+  LDFLAGS = -Wl,-elf2flt,$(LIBS_PATH)
+  LINK.o = $(CXX) $(LDFLAGS) $(TARGET_ARCH)
+
+  INCLUDE   = ./ /usr/include 
+  CPPFLAGS  += $(INCLUDE:%=-I%) $(DEFINES:%=-D%) -MMD -MF $(@:%.o=%.d)
+  LDLIBS = -lmesasr_bfin
+endif
+
+OUT       =  TCPUDPServer
+
+#---------------- Variables --------------------
+
+#VPATH = $(SRC_ROOT)/samples/libMesaSRTester/:$(SRC_ROOT)/libMesaSR/
+#VPATH =./host
+
+SRC_APP= \
+ TCPUDPServer.cpp
+
+OBJ_APP := $(SRC_APP:%.cpp=./$(DST)/%.o)
+DEP_APP := $(SRC_APP:%.cpp=./$(DST)/%.d)
+
+$(DST)/%.o: %.cpp
+	@if [ ! -d $(DST) ]; then mkdir $(DST); fi
+	$(COMPILE.cpp) $(LIBS_PATH) $(OUTPUT_OPTION) $<
+
+SRC := $(SRC_APP)
+OBJ := $(OBJ_APP)
+DEP := $(DEP_APP)
+
+#---------------- Dependency Rules --------------------
+
+ifneq ($(strip $(DEP)),)
+  -include $(DEP)
+endif
+
+
+#---------------- Main Rule --------------------
+
+.DEFAULT_GOAL := all
+
+#---------------- Rules --------------------
+
+all: $(OUT:%=$(DST)/%)
+
+$(DST)/$(OUT): $(OBJ_APP)
+
+ifndef HOST
+deploy: $(OUT:%=$(DST)/%)
+	@if test -z "$(IP_CAM)" ; then echo "call something like 'make deploy -e IP_CAM=10.0.1.116'";false; fi
+	@echo "copy with scp to $(IP_CAM). pw is uClinux"
+	@echo "/opt/$(OUT)" >  $(DST)/rc.local
+	@echo "mesaserver&" >>  $(DST)/rc.local
+	- scp $(DST)/rc.local $^ root@$(IP_CAM):/opt
+	@echo "now repower/reboot the camera and the application will start"
+	@echo "to revert the camera to normal mode rename/remove the file /opt/rc.local on the camera and repower/reboot the camera"
+endif
+
+clean:
+	$(RM) -r host target
+#	$(RM) $(OUT) *.o *.d *.gdb rc.local host
+
+.PHONY : debug clean links deploy
+
+#---------------- debug and tests --------------------
+
+debug:
+	@echo .VARIABLES: '$(.VARIABLES)'
+	@echo .FEATURES: '$(.FEATURES)'
+	@echo .SUFFIXES: '$(.SUFFIXES)'
+	@echo COMPILE.c $(COMPILE.c)
+	@echo COMPILE.cpp $(COMPILE.cpp)
+	@echo LINK.o $(LINK.o)
+
+	@echo CXX $(CXX)
+	@echo CXXFLAGS $(CXXFLAGS)
+
+	@echo CC $(CC)
+	@echo CFLAGS $(CFLAGS)
+
+	@echo CPPFLAGS $(CPPFLAGS)
+	@echo TARGET_ARCH $(TARGET_ARCH)
+
+	@echo LDFLAGS $(LDFLAGS)
+
+	@echo CURDIR $(CURDIR)
+
+	@echo AR $(AR)
+	@echo ARFLAGS $(ARFLAGS)
+
+	@echo SRC_APP $(SRC_APP)
+	@echo OBJ_APP $(OBJ_APP)
+	@echo DEP_APP $(DEP_APP)
+	@echo OUT $(OUT:%=$(DST)/%)
+
